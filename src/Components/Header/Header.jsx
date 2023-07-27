@@ -2,6 +2,7 @@ import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../../assests/logo.png'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 
 
@@ -20,13 +21,13 @@ export default function Example() {
                         <div className=" flex items-center justify-center sm:items-stretch sm:justify-end">
                                 <div className="hidden sm:ml-6 sm:block">
                                     <ul className="flex justify-end space-x-12 z-30 text-white font-semibold">
-                                        <a href="#"  className="text-white text-decoration-none  font-semibold li-header cursor-pointer">Home</ a>
-                                        <a href="/AboutUs"  className="text-white text-decoration-none font-semibold li-header cursor-pointer">About Us</a>
-                                        <a href="#" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Team</ a>
-                                        <a href="#" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Works</ a>
-                                        <a href="#" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Service</ a>
-                                        <a href="#" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Blog</ a>
-                                        <a href="#" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Contact</a>
+                                        <Link to="/"  className="text-white text-decoration-none  font-semibold li-header cursor-pointer">Home</ a>
+                                        <Link to="/about"  className="text-white text-decoration-none font-semibold li-header cursor-pointer">About Us</Link>
+                                        <Link to="/team" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Team</ a>
+                                        <Link to="/work" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Works</ a>
+                                        <Link to="/service" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Service</ a>
+                                        <Link to="/blog" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Blog</ a>
+                                        <Link to="/contact" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Contact</Link>
                                     </ul>
                                 </div>
                             </div>
