@@ -20,13 +20,13 @@ export default function Example() {
                         <div className=" flex items-center justify-center sm:items-stretch sm:justify-end">
                                 <div className="hidden sm:ml-6 sm:block">
                                     <ul className="flex justify-end space-x-12 z-30 text-white font-semibold">
-                                        <a href="/" to="/" className="text-white text-decoration-none  font-semibold li-header cursor-pointer">Home</ a>
-                                        <a href="/about" to="/about" className="text-white text-decoration-none font-semibold li-header cursor-pointer">About Us</a>
-                                        <a href="/team" to="/team" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Team</ a>
-                                        <a href="/work" to="/work" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Works</ a>
-                                        <a href="/service" to="/service" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Service</ a>
-                                        <a href="/blog" to="/blog" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Blog</ a>
-                                        <a href="/contact" to="/contact" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Contact</a>
+                                        <a href="#"  className="text-white text-decoration-none  font-semibold li-header cursor-pointer">Home</ a>
+                                        <a href="../../OtherPages/AboutUS/AboutUs.jsx"  className="text-white text-decoration-none font-semibold li-header cursor-pointer">About Us</a>
+                                        <a href="../../OtherPages/OurTeam/SliderShow.jsx" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Team</ a>
+                                        <a href="#" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Works</ a>
+                                        <a href="#" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Service</ a>
+                                        <a href="#" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Blog</ a>
+                                        <a href="#" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Contact</a>
                                     </ul>
                                 </div>
                             </div>
@@ -50,31 +50,31 @@ export default function Example() {
                     <Disclosure.Panel className="sm:hidden">
                         <ul className="space-y-5 px-2 pb-3 pt-2  bg-color-navbar text-decoration-none text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                                         'block rounded-md py-2 text-base font-medium">
-                            <a href="/" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            <a href="#" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Home
                             </a>
-                            <a href="about" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            <a href="#" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 About Us
                             </a >
-                            <a href="/team" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            <a href="#" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Team
                             </a >
-                            <a href="/work" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            <a href="#" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Works
                             </a >
-                            <a href="/service" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            <a href="#" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Service
                             </a >
-                            <a href="/blog" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            <a href="#" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Blog
                             </a>
-                            <a href="/contact" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            <a href="#" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Contact
                             </a >
