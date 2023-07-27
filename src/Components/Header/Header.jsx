@@ -2,7 +2,7 @@ import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../../assests/logo.png'
 import './Header.css'
-import { Link, NavLink } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 
 
 
@@ -20,13 +20,13 @@ export default function Example() {
                         <div className=" flex items-center justify-center sm:items-stretch sm:justify-end">
                                 <div className="hidden sm:ml-6 sm:block">
                                     <ul className="flex justify-end space-x-12 z-30 text-white font-semibold">
-                                        <NavLink to="/" className="text-white text-decoration-none  font-semibold li-header cursor-pointer">Home</NavLink >
-                                        <NavLink to="/about" className="text-white text-decoration-none font-semibold li-header cursor-pointer">About Us</NavLink>
-                                        <NavLink to="/team" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Team</ NavLink>
-                                        <NavLink to="/work" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Works</ NavLink>
-                                        <NavLink to="/service" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Service</ NavLink>
-                                        <NavLink to="/blog" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Blog</ NavLink>
-                                        <NavLink to="/contact" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Contact</NavLink>
+                                        <a href="/" to="/" className="text-white text-decoration-none  font-semibold li-header cursor-pointer">Home</ a>
+                                        <a href="/about" to="/about" className="text-white text-decoration-none font-semibold li-header cursor-pointer">About Us</a>
+                                        <a href="/team" to="/team" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Team</ a>
+                                        <a href="/work" to="/work" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Works</ a>
+                                        <a href="/service" to="/service" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Service</ a>
+                                        <a href="/blog" to="/blog" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Blog</ a>
+                                        <a href="/contact" to="/contact" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Contact</a>
                                     </ul>
                                 </div>
                             </div>
@@ -50,34 +50,34 @@ export default function Example() {
                     <Disclosure.Panel className="sm:hidden">
                         <ul className="space-y-5 px-2 pb-3 pt-2  bg-color-navbar text-decoration-none text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                                         'block rounded-md py-2 text-base font-medium">
-                            <NavLink to="/" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            <a href="/" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Home
-                            </NavLink>
-                            <NavLink to="about" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            </a>
+                            <a href="about" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 About Us
-                            </NavLink >
-                            <NavLink to="/team" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            </a >
+                            <a href="/team" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Team
-                            </NavLink >
-                            <NavLink to="/work" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            </a >
+                            <a href="/work" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Works
-                            </NavLink >
-                            <NavLink to="/service" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            </a >
+                            <a href="/service" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Service
-                            </NavLink >
-                            <NavLink to="/blog" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            </a >
+                            <a href="/blog" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Blog
-                            </NavLink>
-                            <NavLink to="/contact" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            </a>
+                            <a href="/contact" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Contact
-                            </NavLink >
+                            </a >
                         </ul>
                     </Disclosure.Panel>
                 </>
