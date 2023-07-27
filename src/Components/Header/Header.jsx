@@ -2,7 +2,6 @@ import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../../assests/logo.png'
 import './Header.css'
-import { a href="#" } from "react-router-dom";
 
 
 
