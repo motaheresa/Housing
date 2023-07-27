@@ -2,7 +2,7 @@ import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../../assests/logo.png'
 import './Header.css'
-import { Link } from "react-router-dom";
+import { a href="#" } from "react-router-dom";
 
 
 
@@ -20,13 +20,13 @@ export default function Example() {
                         <div className=" flex items-center justify-center sm:items-stretch sm:justify-end">
                                 <div className="hidden sm:ml-6 sm:block">
                                     <ul className="flex justify-end space-x-12 z-30 text-white font-semibold">
-                                        <Link to="/" className="text-white text-decoration-none  font-semibold li-header cursor-pointer">Home</Link>
-                                        <Link to="/about" className="text-white text-decoration-none font-semibold li-header cursor-pointer">About Us</Link>
-                                        <Link to="/team" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Team</Link>
-                                        <Link to="/work" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Works</Link>
-                                        <Link to="/service" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Service</Link>
-                                        <Link to="/blog" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Blog</Link>
-                                        <Link to="/contact" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Contact</Link>
+                                        <a href="#" to="/" className="text-white text-decoration-none  font-semibold li-header cursor-pointer">Home</a >
+                                        <a href="#" to="/about" className="text-white text-decoration-none font-semibold li-header cursor-pointer">About Us</a>
+                                        <a href="#" to="/team" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Team</a >
+                                        <a href="#" to="/work" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Works</a >
+                                        <a href="#" to="/service" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Service</a >
+                                        <a href="#" to="/blog" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Blog</a >
+                                        <a href="#" to="/contact" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Contact</a>
                                     </ul>
                                 </div>
                             </div>
@@ -54,30 +54,30 @@ export default function Example() {
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Home
                             </Link>
-                            <Link to="about" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            <a href="#" to="about" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 About Us
-                            </Link>
-                            <Link to="/team" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            </a >
+                            <a href="#" to="/team" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Team
-                            </Link>
-                            <Link to="/work" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            </a >
+                            <a href="#" to="/work" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Works
-                            </Link>
-                            <Link to="/service" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            </a >
+                            <a href="#" to="/service" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Service
-                            </Link>
-                            <Link to="/blog" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            </a >
+                            <a href="#" to="/blog" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Blog
-                            </Link>
-                            <Link to="/contact" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            </a>
+                            <a href="#" to="/contact" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Contact
-                            </Link>
+                            </a >
                         </ul>
                     </Disclosure.Panel>
                 </>
