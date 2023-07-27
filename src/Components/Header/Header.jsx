@@ -2,7 +2,7 @@ import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../../assests/logo.png'
 import './Header.css'
-import { Link} from 'react-router-dom'
+
 
 
 
@@ -21,8 +21,8 @@ export default function Example() {
                                 <div className="hidden sm:ml-6 sm:block">
                                     <ul className="flex justify-end space-x-12 z-30 text-white font-semibold">
                                         <a href="#"  className="text-white text-decoration-none  font-semibold li-header cursor-pointer">Home</ a>
-                                        <a href="../../OtherPages/AboutUS/AboutUs.jsx"  className="text-white text-decoration-none font-semibold li-header cursor-pointer">About Us</a>
-                                        <a href="../../OtherPages/OurTeam/SliderShow.jsx" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Team</ a>
+                                        <a href="#"  className="text-white text-decoration-none font-semibold li-header cursor-pointer">About Us</a>
+                                        <a href="#" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Team</ a>
                                         <a href="#" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Works</ a>
                                         <a href="#" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Service</ a>
                                         <a href="#" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Blog</ a>
