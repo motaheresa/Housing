@@ -15,18 +15,19 @@ export default function Example() {
                 <>
                     <div className=" z-20 mx-auto w-full px-2 sm:px-6 lg:px-8">
                         <div className=" flex h-16 py-10 md:pt-16 lg:px-20 md:px-10 items-center justify-between">
-                        <div className=" flex items-center pr-2 sm:inset-auto sm:ml-6 sm:pr-0">
+                            <div className=" flex items-center pr-2 sm:inset-auto sm:ml-6 sm:pr-0">
                                 <img src={logo} alt="" />
                             </div>
-                        <div className=" flex items-center justify-center sm:items-stretch sm:justify-end">
+                            <div className=" flex items-center justify-center sm:items-stretch sm:justify-end">
                                 <div className="hidden sm:ml-6 sm:block">
                                     <ul className="flex justify-end space-x-12 z-30 text-white font-semibold">
-                                        <Link to="/"  className="text-white text-decoration-none  font-semibold li-header cursor-pointer">Home</ a>
-                                        <Link to="/about"  className="text-white text-decoration-none font-semibold li-header cursor-pointer">About Us</Link>
-                                        <Link to="/team" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Team</ a>
-                                        <Link to="/work" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Works</ a>
-                                        <Link to="/service" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Service</ a>
-                                        <Link to="/blog" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Blog</ a>
+                                        <Link to="/" className="text-white text-decoration-none  font-semibold li-header cursor-pointer">Home</ Link>
+                                        <Link to="/about" className="text-white text-decoration-none font-semibold li-header cursor-pointer">About Us</Link>
+
+                                        <Link to="/work" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Works</ Link>
+                                        <Link to="/team" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Team</ Link>
+                                        <Link to="/service" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Service</ Link>
+                                        <Link to="/blog" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Blog</ Link>
                                         <Link to="/contact" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Contact</Link>
                                     </ul>
                                 </div>
@@ -42,8 +43,8 @@ export default function Example() {
                                     )}
                                 </Disclosure.Button>
                             </div>
-                            
-                            
+
+
 
                         </div>
                     </div>
