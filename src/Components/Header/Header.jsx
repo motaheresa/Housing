@@ -2,6 +2,7 @@ import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../../assests/logo.png'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 
 
@@ -19,8 +20,8 @@ export default function Example() {
                         <div className=" flex items-center justify-center sm:items-stretch sm:justify-end">
                                 <div className="hidden sm:ml-6 sm:block">
                                     <ul className="flex justify-end space-x-12 z-30 text-white font-semibold">
-                                        <a href="#" to="/" className="text-white text-decoration-none  font-semibold li-header cursor-pointer">Home</a >
-                                        <a href="#" to="/about" className="text-white text-decoration-none font-semibold li-header cursor-pointer">About Us</a>
+                                        <Link  to="/" className="text-white text-decoration-none  font-semibold li-header cursor-pointer">Home</Link >
+                                        <Link to="/about" className="text-white text-decoration-none font-semibold li-header cursor-pointer">About Us</Li>
                                         <a href="#" to="/team" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Team</a >
                                         <a href="#" to="/work" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Works</a >
                                         <a href="#" to="/service" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Service</a >
