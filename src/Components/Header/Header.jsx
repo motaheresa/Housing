@@ -21,7 +21,7 @@ export default function Example() {
                                 <div className="hidden sm:ml-6 sm:block">
                                     <ul className="flex justify-end space-x-12 z-30 text-white font-semibold">
                                         <Link  to="/" className="text-white text-decoration-none  font-semibold li-header cursor-pointer">Home</Link >
-                                        <Link to="/about" className="text-white text-decoration-none font-semibold li-header cursor-pointer">About Us</Li>
+                                        <Link to="/about" className="text-white text-decoration-none font-semibold li-header cursor-pointer">About Us</Link>
                                         <a href="#" to="/team" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Team</a >
                                         <a href="#" to="/work" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Works</a >
                                         <a href="#" to="/service" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Service</a >
