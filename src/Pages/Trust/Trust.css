@@ -1,0 +1,12 @@
+.trust{
+    background-color: rgb(17,17,17);
+}
+
+.contact-trust-btn{
+    border: rgb(163,140,76) 2px solid;
+    transition: .2s linear;
+}
+
+.contact-trust-btn:hover{
+    background-color: rgb(163,140,76) ;
+}

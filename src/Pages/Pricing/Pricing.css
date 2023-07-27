@@ -1,0 +1,72 @@
+.pricing{
+    background-color: rgb(15,15,15)
+}
+.pricelist {
+    display: inline-block;
+    border: 8px solid rgba(255, 255, 255, 0.1);
+    padding: 20px 10px;
+    margin: 30px auto 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.pricelist .heading {
+    font-size: 1.75rem;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 0 30px;
+}
+.pricelist .bigprice {
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: 10px 0 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.pricelist .list {
+    list-style: none;
+    padding: 0px;
+    text-align: left;
+}
+.pricelist .list li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pricelist .list li i {
+    position: relative;
+    top: -2px;
+    font-size: .8rem;
+    padding-right: 2px;
+}
+
+.border-pricing{
+    border: 10px solid rgb(39,39,39);
+    transition: .3s ease-in-out;
+}
+
+@media screen and (min-width:800px) and (max-width:2000px) {
+    .border-pricing{
+        width: 20%;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:800px) {
+    .border-pricing{
+        width: 99%;
+    }
+}
+
+.border-pricing:hover{
+    border-color: rgb(200,174,101);
+}
+
+.price-number{
+    color: rgb(200,174,101);
+}
+
+.border-pricing-color{
+    border-bottom: 1px solid rgb(39,39,39);
+}
+
+
+

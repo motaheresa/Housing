@@ -1,0 +1,52 @@
+.team-com3{
+    background-color: rgb(15,15,15);
+}
+
+
+@media screen and (min-width:900px) {
+    .member3 {
+        width: 17%;
+    }
+    .social-icons-team {
+        transform: translateY(100px);
+        transition: transform .3s ease-in-out;
+    }
+    
+    
+    .member3:hover .social-icons-team {
+        transform: translateY(0);
+    }
+}
+
+@media screen and (min-width:625px) and (max-width:990px) {
+    .member3 {
+        width: 40%;
+    }
+    
+    
+}
+@media screen and (min-width:25px) and (max-width:625px) {
+    .member3 {
+        width: 90%;
+    }
+    
+    
+}
+
+
+.member3::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    background-color: rgba(35, 36, 38, 0.4);
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.member3:hover::after {
+    background-color: rgba(44, 46, 48, 0.6);
+}

@@ -1,0 +1,5 @@
+.bg-widget{
+    background-image: url("../../../assests/bg-widget.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

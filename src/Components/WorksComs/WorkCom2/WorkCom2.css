@@ -1,0 +1,14 @@
+.hoverImage:hover {
+    transform: scale(1.02);
+}
+.showimage{
+    visibility: visible;
+    opacity: 1;
+    transition:  .5s linear;
+}
+
+.hideimage{
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s linear;
+}

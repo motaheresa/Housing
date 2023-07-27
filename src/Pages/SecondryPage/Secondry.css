@@ -1,0 +1,49 @@
+.ser1{
+    background-image: url("../../assests/bg-serv-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ser2{
+    background-image: url("../../assests/bg-serv-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ser3{
+    background-image: url("../../assests/bg-serv-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head-ser{
+    color: rgb(207 175 86);
+}
+
+.btn-border{
+    border-color:rgb(207 175 86);
+    border-width:2px;
+    background-color:transparent;
+    transition: .2s linear;
+    position:relative;
+    z-index:3;
+    color: #fff;
+}
+
+.btn-border::before{
+    content: "";
+    position:absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: -2;
+    background-color: rgb(207 175 86);
+    transform: scaleX(0);
+    transition: transform .3s linear;
+    transform-origin: bottom right;
+}
+.btn-border:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

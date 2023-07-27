@@ -1,0 +1,27 @@
+.testimonal{
+    background-image: url("../../assests/testimony.jpg") !important;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.testimonal::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(190,164,86,.9) !important;
+}
+
+.slick-arrow{
+    display: none !important;
+}
+
+/* .carousel-control-next-icon,
+.carousel-control-next,
+.carousel-control-next,
+.carousel-control-prev-icon {
+    display: none;
+} */

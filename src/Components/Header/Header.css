@@ -1,0 +1,36 @@
+.li-header {
+    transition: .2s linear;
+    position: relative;
+}
+
+.li-header::before {
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    width: 100%;
+}
+
+.li-header:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.li-header::before {
+    content: "";
+    position: absolute;
+    height: 2.3px;
+    bottom: -5px;
+    left: 0;
+    background-color: rgb(207 175 86);
+    transition: transform .3s ease;
+}
+
+.li-header:hover {
+    color: rgb(207, 175, 86);
+}
+
+@media screen and (min-width:100px) and (max-width:640px) {
+    .bg-color-navbar{
+        background-color: rgb(27,27,27);
+    }
+}
+
