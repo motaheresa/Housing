@@ -10,7 +10,7 @@ import Contact from './Components/WorksComs/Contact/Contact';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <Routes>
         <Route path='/' element={<Project/>}/>
         <Route path='/about' element={<AboutUs/>}/>
@@ -21,7 +21,8 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
       
-    </BrowserRouter>
+    </BrowserRouter> */}
+    <Project/>
     </div>
   );
 }
