@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Housing/static/css/main.71ba6ac6.css",
+    "main.js": "/Housing/static/js/main.1052881d.js",
+    "static/js/787.d22689a3.chunk.js": "/Housing/static/js/787.d22689a3.chunk.js",
+    "static/media/1.jpg": "/Housing/static/media/1.cd26a92801ced3a86ff5.jpg",
+    "static/media/contact.jpg": "/Housing/static/media/contact.8dc4cb41f8e0c51b82af.jpg",
+    "static/media/mocks.png": "/Housing/static/media/mocks.8ad0aacefc22ec527e26.png",
+    "static/media/3.jpg": "/Housing/static/media/3.bdcd5f37233f0e84a115.jpg",
+    "static/media/porto.jpg": "/Housing/static/media/porto.1096f2203423f444fbc9.jpg",
+    "static/media/team.jpg": "/Housing/static/media/team.b5d1420d158c98c9a022.jpg",
+    "static/media/4.jpg": "/Housing/static/media/4.de90bf3d27c39bfed868.jpg",
+    "static/media/service3.jpg": "/Housing/static/media/service3.e788366d5ea1e7e4fd37.jpg",
+    "static/media/service4.jpg": "/Housing/static/media/service4.e788366d5ea1e7e4fd37.jpg",
+    "static/media/2.jpg": "/Housing/static/media/2.2b13cd1dd4896d73c592.jpg",
+    "static/media/5.jpg": "/Housing/static/media/5.120b88f77fe9b8403656.jpg",
+    "static/media/service.jpg": "/Housing/static/media/service.ef0043112967bdc081c3.jpg",
+    "static/media/bg-3.jpg": "/Housing/static/media/bg-3.f12a2ec87cd0534e8628.jpg",
+    "static/media/testimony.jpg": "/Housing/static/media/testimony.69a2d90c5c47f38c7f3b.jpg",
+    "static/media/bg-2.jpg": "/Housing/static/media/bg-2.5053c974d16c509a282f.jpg",
+    "static/media/blog.jpg": "/Housing/static/media/blog.9d3e68d09d443fdcbf0f.jpg",
+    "static/media/bg-widget.jpg": "/Housing/static/media/bg-widget.f03e38e7ff785f73ad0d.jpg",
+    "static/media/bg.jpg": "/Housing/static/media/bg.d32dc4d92a4da3236386.jpg",
+    "static/media/team2.jpg": "/Housing/static/media/team2.dc5ace90b4f4f58a79d1.jpg",
+    "static/media/team3.jpg": "/Housing/static/media/team3.551bdf46d0712eae4e5a.jpg",
+    "static/media/bg-serv-1.jpg": "/Housing/static/media/bg-serv-1.ce3e3692beb9a577e619.jpg",
+    "static/media/bg-serv-2.jpg": "/Housing/static/media/bg-serv-2.bbd9099ca0d527739ede.jpg",
+    "static/media/bg-serv-3.jpg": "/Housing/static/media/bg-serv-3.00aa27847a86abc7f378.jpg",
+    "static/media/img1.jpg": "/Housing/static/media/img1.06f62d670fc13a057734.jpg",
+    "static/media/team1.jpg": "/Housing/static/media/team1.06f62d670fc13a057734.jpg",
+    "static/media/img4.jpg": "/Housing/static/media/img4.a117b9cfd8d838e360f8.jpg",
+    "static/media/team4.jpg": "/Housing/static/media/team4.a117b9cfd8d838e360f8.jpg",
+    "index.html": "/Housing/index.html",
+    "main.71ba6ac6.css.map": "/Housing/static/css/main.71ba6ac6.css.map",
+    "main.1052881d.js.map": "/Housing/static/js/main.1052881d.js.map",
+    "787.d22689a3.chunk.js.map": "/Housing/static/js/787.d22689a3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71ba6ac6.css",
+    "static/js/main.1052881d.js"
+  ]
+}
