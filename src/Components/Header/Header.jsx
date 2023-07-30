@@ -21,7 +21,7 @@ export default function Example() {
                             <div className=" flex items-center justify-center sm:items-stretch sm:justify-end">
                                 <div className="hidden sm:ml-6 sm:block">
                                     <ul className="flex justify-end space-x-12 z-30 text-white font-semibold">
-                                        <Link to="/" className="text-white text-decoration-none  font-semibold li-header cursor-pointer">Home</ Link>
+                                        <Link to="/Housing" className="text-white text-decoration-none  font-semibold li-header cursor-pointer">Home</ Link>
                                         <Link to="/about" className="text-white text-decoration-none font-semibold li-header cursor-pointer">About Us</Link>
 
                                         <Link to="/work" className="text-white text-decoration-none font-semibold li-header cursor-pointer">Works</ Link>
@@ -52,34 +52,34 @@ export default function Example() {
                     <Disclosure.Panel className="sm:hidden">
                         <ul className="space-y-5 px-2 pb-3 pt-2  bg-color-navbar text-decoration-none text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                                         'block rounded-md py-2 text-base font-medium">
-                            <a href="#" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            <Link to="/" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Home
-                            </a>
-                            <a href="#" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            </Link>
+                            <Link to="/about" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 About Us
-                            </a >
-                            <a href="#" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            </Link >
+                            <Link to="/team" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Team
-                            </a >
-                            <a href="#" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            </Link >
+                            <Link to="/work" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Works
-                            </a >
-                            <a href="#" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            </Link >
+                            <Link to="/service" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Service
-                            </a >
-                            <a href="#" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            </Link >
+                            <Link to="/blog" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Blog
-                            </a>
-                            <a href="#" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            </Link>
+                            <Link to="/contact" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Contact
-                            </a >
+                            </Link >
                         </ul>
                     </Disclosure.Panel>
                 </>

@@ -1,7 +1,7 @@
 import './App.css';
-import AboutUs from './OtherPages/AboutUS/AboutUs';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Project from './Project';
+import AboutUs from './OtherPages/AboutUS/AboutUs.jsx';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Project from './Pages/Project';
 import OurTeam from './OtherPages/OurTeam/OurTeam';
 import Work from './OtherPages/Work/Work';
 import Service from './OtherPages/Service/Service';
@@ -10,18 +10,19 @@ import Contact from './Components/WorksComs/Contact/Contact';
 function App() {
   return (
     <div className="App">
-      <Router> 
+      <BrowserRouter>
+        {/* <Project/> */}
         <Routes>
-          <Route path='/' element={<Project />} />
           <Route path='/about' element={<AboutUs />} />
+          <Route path='/Housing' element={<Project />} />
           <Route path='/team' element={<OurTeam />} />
           <Route path='/work' element={<Work />} />
           <Route path='/service' element={<Service />} />
           <Route path='/blog' element={<Blog />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='*' element={<h1>Error Page Not Found</h1>} />
         </Routes>
-      </Router>
-
+      </BrowserRouter>
     </div>
   );
 }
