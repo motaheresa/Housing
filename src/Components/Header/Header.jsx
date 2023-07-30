@@ -52,7 +52,7 @@ export default function Example() {
                     <Disclosure.Panel className="sm:hidden">
                         <ul className="space-y-5 px-2 pb-3 pt-2  bg-color-navbar text-decoration-none text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                                         'block rounded-md py-2 text-base font-medium">
-                            <Link to="/" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
+                            <Link to="/Housing" className=" bg-color-navbar text-decoration-none text-white : text-gray-300 hover:bg-gray-700 hover:text-white',
                                         block rounded-md px-3 py-2 text-base font-medium">
                                 Home
                             </Link>
