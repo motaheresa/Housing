@@ -12,6 +12,8 @@ import {
     MDBRow,
 } from 'mdb-react-ui-kit';
 import './WorkCom2.css'
+import { EyeIcon } from '@heroicons/react/24/outline'
+import { BsEyeFill } from 'react-icons/bs'
 
 
 
@@ -32,9 +34,9 @@ const WorkCom2 = () => {
     const [open9,setOpen9]=useState(false)
     return (
         <div style={work} className={`flex relative pt-16 justify-center items-center w-full mx-auto pb-44 px-6 md:px-20 lg:px-44 `}>
-            <MDBRow className=''>
-                <MDBCol lg={4} md={6} sm={12} className=' mb-4 space-y-4 mb-lg-0'>
-                    <div onClick={() => setOpen1(true)} className='relative hoverImage cursor-pointer h-2/5 duration-500'>
+            <MDBRow className='space-y-5'>
+                <MDBCol lg={4} md={6} sm={12} className=' mb-lg-0'>
+                    <div onClick={() => setOpen1(true)} className='relative hoverImage cursor-pointer duration-500'>
                         <img
                             src={image1}
                             className=' w-100 transform  cursor-pointer h-full shadow-1-strong rounded mb-4'
@@ -43,6 +45,7 @@ const WorkCom2 = () => {
                         <p className='absolute bottom-3 left-5 text-white text-xl font-medium'>
                             Start Gallery
                         </p>
+                        <span className='eye-work text-3xl text-gray-200 -translate-x-2/4 -translate-y-2/4 absolute top-2/4 left-2/4'><BsEyeFill/></span>
                     </div>
                     <div className={`fixed ${open1 ? "showimage" : "hideimage"} items-center justify-center left-0 w-full bottom-0 z-20 h-full bg-black`}>
                         <div className='flex justify-center items-center'>
@@ -61,6 +64,8 @@ const WorkCom2 = () => {
                         <p className='absolute bottom-3 left-5 text-white text-xl font-medium'>
                             Gallery Show
                         </p>
+                        <span className='eye-work text-3xl text-gray-200 -translate-x-2/4 -translate-y-2/4 absolute top-2/4 left-2/4'><BsEyeFill/></span>
+
                         <div className={`fixed ${open2 ? "showimage" : "hideimage"} items-center justify-center left-0 w-full bottom-0 z-20 h-full bg-black`}>
                             <div className='flex justify-center items-center'>
                                 <img src={image2} className='absolute top-2/4 -translate-y-2/4 w-3/4 mx-auto rounded' alt="" />
@@ -87,6 +92,8 @@ const WorkCom2 = () => {
                         <p className='absolute bottom-3 left-5 text-white text-xl font-medium'>
                             Big Gallery
                         </p>
+                        <span className='eye-work text-3xl text-gray-200 -translate-x-2/4 -translate-y-2/4 absolute top-2/4 left-2/4'><BsEyeFill/></span>
+
                     </div>
                     <div className={`fixed ${open3 ? "showimage" : "hideimage"} items-center justify-center left-0 w-full bottom-0 z-20 h-full bg-black`}>
                         <div className='flex justify-center items-center'>
@@ -99,8 +106,8 @@ const WorkCom2 = () => {
 
                 </MDBCol>
 
-                <MDBCol lg={4} md={6} sm={12} className='space-y-3 mb-4 mb-lg-0'>
-                    <div onClick={() => setOpen4(true)} className='relative hoverImage h-2/4 cursor-pointer  duration-500'>
+                <MDBCol lg={4} md={6} sm={12} className='space-y-3 mb-4 mb-lg-0 '>
+                    <div onClick={() => setOpen4(true)} className='relative hoverImage h-2/5 cursor-pointer  duration-500'>
                         <img
                             src={image3}
                             className='w-100 h-full object-cover duration-500 cursor-pointer hoverImage shadow-1-strong rounded mb-4'
@@ -109,6 +116,8 @@ const WorkCom2 = () => {
                         <p className='absolute bottom-3 left-5 text-white text-xl font-medium'>
                             Main Gallery
                         </p>
+                        <span className='eye-work text-3xl text-gray-200 -translate-x-2/4 -translate-y-2/4 absolute top-2/4 left-2/4'><BsEyeFill/></span>
+
                     </div>
                     <div className={`fixed ${open4 ? "showimage" : "hideimage"} items-center justify-center left-0 w-full bottom-0 z-20 h-full bg-black`}>
                         <div className='flex justify-center items-center'>
@@ -127,6 +136,8 @@ const WorkCom2 = () => {
                         <p className='absolute bottom-3 left-5 text-white text-xl font-medium'>
                             Gallery Mode
                         </p>
+                        <span className='eye-work text-3xl text-gray-200 -translate-x-2/4 -translate-y-2/4 absolute top-2/4 left-2/4'><BsEyeFill/></span>
+
                     </div>
                     <div className={`fixed ${open5 ? "showimage" : "hideimage"} items-center justify-center left-0 w-full bottom-0 z-20 h-full bg-black`}>
                         <div className='flex justify-center items-center'>
@@ -145,6 +156,8 @@ const WorkCom2 = () => {
                         <p className='absolute bottom-3 left-5 text-white text-xl font-medium'>
                             Show Gallery
                         </p>
+                        <span className='eye-work text-3xl text-gray-200 -translate-x-2/4 -translate-y-2/4 absolute top-2/4 left-2/4'><BsEyeFill/></span>
+
                     </div>
                     <div className={`fixed ${open6?"showimage":"hideimage"} items-center justify-center left-0 w-full bottom-0 z-20 h-full bg-black`}>
                         <div className='flex justify-center items-center'>
@@ -156,7 +169,7 @@ const WorkCom2 = () => {
                     </div>
                 </MDBCol>
 
-                <MDBCol lg={4} md={6} sm={12} className='space-y-3 mb-4 mb-lg-0'>
+                <MDBCol lg={4} md={6} sm={12} className='space-y-3 mb-4  mb-lg-0'>
                     <div onClick={() => setOpen7(true)} className='relative hoverImage cursor-pointer  duration-500'>
                         <img
                             src={image5}
@@ -166,6 +179,8 @@ const WorkCom2 = () => {
                         <p className='absolute bottom-3 left-5 text-white text-xl font-medium'>
                             Dark Mode Gallery
                         </p>
+                        <span className='eye-work text-3xl text-gray-200 -translate-x-2/4 -translate-y-2/4 absolute top-2/4 left-2/4'><BsEyeFill/></span>
+
                     </div>
                     <div className={`fixed ${open7?"showimage":"hideimage"} items-center justify-center left-0 w-full bottom-0 z-20 h-full bg-black`}>
                         <div className='flex justify-center items-center'>
@@ -184,6 +199,8 @@ const WorkCom2 = () => {
                         <p className='absolute bottom-3 left-5 text-white text-xl font-medium'>
                             Variations Gallery
                         </p>
+                        <span className='eye-work text-3xl text-gray-200 -translate-x-2/4 -translate-y-2/4 absolute top-2/4 left-2/4'><BsEyeFill/></span>
+
                     </div>
                     <div className={`fixed ${open8?"showimage":"hideimage"} items-center justify-center left-0 w-full bottom-0 z-20 h-full bg-black`}>
                         <div className='flex justify-center items-center'>
@@ -203,6 +220,8 @@ const WorkCom2 = () => {
                         <p className='absolute bottom-3 left-5 text-white text-xl font-medium'>
                             Variations Mode
                         </p>
+                        <span className='eye-work text-3xl text-gray-200 -translate-x-2/4 -translate-y-2/4 absolute top-2/4 left-2/4'><BsEyeFill/></span>
+
                     </div>
                     <div className={`fixed ${open9?"showimage":"hideimage"} items-center justify-center left-0 w-full bottom-0 z-20 h-full bg-black`}>
                         <div className='flex justify-center items-center'>

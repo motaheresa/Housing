@@ -1,6 +1,36 @@
 .hoverImage:hover {
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
+.hoverImage{
+    position: relative;
+}
+.hoverImage::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    background-color: rgba(.1, .1, .1, .3);
+    transition: .3s linear !important;
+}
+
+.hoverImage:hover:before {
+    width: 100%;
+    height: 100%;
+    transition: .3s linear;
+}
+
+.eye-work{
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s linear;
+}
+
+.hoverImage:hover .eye-work{
+    visibility: visible;
+    opacity: 1;
+}
+
 .showimage{
     visibility: visible;
     opacity: 1;

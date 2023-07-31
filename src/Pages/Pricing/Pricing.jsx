@@ -7,10 +7,7 @@ const Pricing = () => {
     return (
         <div className="pricing py-10">
             <div className="flex flex-col items-center justify-center">
-                <p className="head-team pb-1 text-2xl text-gray-200 tracking-wider mb-5">
-                    Our Pricing
-                </p>
-                <h2 className="text-5xl text-gray-100 my-5">Easy Pricing</h2>
+                <h2 className="text-5xl text-gray-100 mb-5 mt-3">Easy Pricing</h2>
                 <p className="lg:w-2/5 md:w-4/5 w-10/12 text-center text-gray-200 mb-14">
                     Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed
                     suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus
